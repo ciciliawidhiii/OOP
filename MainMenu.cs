@@ -20,7 +20,7 @@ namespace eRent_Camera
             RentDateDtp.ValueChanged += new EventHandler(RentDateDtp_ValueChanged);
             ReturnDtp.ValueChanged += new EventHandler(ReturnDtp_ValueChanged);
         }
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\praktikum pbo\obj\eRent Camera\eRentDb.mdf;Integrated Security=True");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\source\repos\eRent Camera\eRentDb.mdf;Integrated Security=True");
         private void populate()
         {
             Con.Open();

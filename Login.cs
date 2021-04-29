@@ -20,7 +20,7 @@ namespace eRent_Camera
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\praktikum pbo\obj\eRent Camera\eRentDb.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\source\repos\eRent Camera\eRentDb.mdf;Integrated Security=True");
             SqlDataAdapter sda = new SqlDataAdapter("SELECT COUNT (*) FROM LoginTbl WHERE username= '" + UserTb.Text + "' AND pass= '" + PassTb.Text + "'", con);
 
             DataTable dt = new DataTable();
