@@ -61,125 +61,123 @@ namespace eRent_Camera
             }
         }
     }
-}
+    class uCustomer
+    {
+        //Member Identitiy 
+        private int IdUser;
+        private int CustId;
+        private string CustName;
+        private string CustAdd;
+        private int CustPhone;
 
-class uCustomer
-{
-    //Member Identitiy 
-    private int IdUser;
-    private int CustId;
-    private string CustName;
-    private string CustAdd;
-    private int CustPhone;
+        //Accessor Function
+        public int theIdUser
+        {
+            get
+            {
+                return this.IdUser;
+            }
+            set
+            {
+                this.IdUser = value;
+            }
+        }
+        public int theCustId
+        {
+            get
+            {
+                return this.CustId;
+            }
+            set
+            {
+                this.CustId = value;
+            }
+        }
+        public string theCustName
+        {
+            get
+            {
+                return this.CustName;
+            }
+            set
+            {
+                this.CustName = value;
+            }
+        }
+        public string theCustAdd
+        {
+            get
+            {
+                return this.CustAdd;
+            }
+            set
+            {
+                this.CustAdd = value;
+            }
+        }
+        public int theCustPhone
+        {
+            get
+            {
+                return this.CustPhone;
+            }
+            set
+            {
+                this.CustPhone = value;
+            }
+        }
+    }
+    class uRent
+    {
+        //variable 
+        private int RentDate;
+        private int ReturnDate;
+        private int RentFee;
+        private int Days;
 
-    //Accessor Function
-    public int theIdUser
-    {
-        get
+        public int theRentDate
         {
-            return this.IdUser;
+            get
+            {
+                return this.RentDate;
+            }
+            set
+            {
+                this.RentDate = value;
+            }
         }
-        set
+        public int theReturnDate
         {
-            this.IdUser = value;
+            get
+            {
+                return this.ReturnDate;
+            }
+            set
+            {
+                this.ReturnDate = value;
+            }
         }
-    }
-    public int theCustId
-    {
-        get
+        public int theRentFee
         {
-            return this.CustId;
+            get
+            {
+                return this.RentFee;
+            }
+            set
+            {
+                this.RentFee = value;
+            }
         }
-        set
+        public int theDays
         {
-            this.CustId = value;
-        }
-    }
-    public string theCustName
-    {
-        get
-        {
-            return this.CustName;
-        }
-        set
-        {
-            this.CustName = value;
-        }
-    }
-    public string theCustAdd
-    {
-        get
-        {
-            return this.CustAdd;
-        }
-        set
-        {
-            this.CustAdd = value;
-        }
-    }
-    public int theCustPhone
-    {
-        get
-        {
-            return this.CustPhone;
-        }
-        set
-        {
-            this.CustPhone = value;
-        }
-    }
-}
-
-class uRent
-{
-    //variable 
-    private int RentDate;
-    private int ReturnDate;
-    private int RentFee;
-    private int Days;
-
-    public int theRentDate
-    {
-        get
-        {
-            return this.RentDate;
-        }
-        set
-        {
-            this.RentDate = value;
-        }
-    }
-    public int theReturnDate
-    {
-        get
-        {
-            return this.ReturnDate;
-        }
-        set
-        {
-            this.ReturnDate = value;
-        }
-    }
-    public int theRentFee
-    {
-        get
-        {
-            return this.RentFee;
-        }
-        set
-        {
-            this.RentFee = value;
-        }
-    }
-    public int theDays
-    {
-        get
-        {
-            return this.Days;
-        }
-        set
-        {
-            this.Days = value;
+            get
+            {
+                return this.Days;
+            }
+            set
+            {
+                this.Days = value;
+            }
         }
     }
 }
