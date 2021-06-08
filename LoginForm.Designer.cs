@@ -79,10 +79,10 @@ namespace eRent_Camera
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 14F);
-            this.label2.Location = new System.Drawing.Point(381, 175);
+            this.label2.Font = new System.Drawing.Font("Open Sans ExtraBold", 16F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(278, 168);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(619, 38);
+            this.label2.Size = new System.Drawing.Size(780, 43);
             this.label2.TabIndex = 3;
             this.label2.Text = "Welcome to Your Rental Management System ";
             // 
