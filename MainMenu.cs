@@ -142,7 +142,7 @@ namespace eRent_Camera
             populate();
             IdTypeCb.Items.Add("KTP");
             IdTypeCb.Items.Add("SIM");
-            IdTypeCb.Items.Add("Kartu Pelajar");
+            IdTypeCb.Items.Add("Student Card");
             IdTypeCb.Items.Add("Passport");
         }
 
