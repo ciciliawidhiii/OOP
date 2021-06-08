@@ -44,7 +44,8 @@ namespace eRent_Camera
             // LoginBtn
             // 
             this.LoginBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.LoginBtn.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.LoginBtn.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
+            this.LoginBtn.ForeColor = System.Drawing.Color.White;
             this.LoginBtn.Location = new System.Drawing.Point(594, 468);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.Size = new System.Drawing.Size(157, 53);
