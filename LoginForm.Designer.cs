@@ -140,7 +140,6 @@ namespace eRent_Camera
             this.Controls.Add(this.label2);
             this.Controls.Add(this.UserTb);
             this.Controls.Add(this.LoginBtn);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

@@ -525,10 +525,9 @@ namespace eRent_Camera
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Main Menu";
             this.Load += new System.EventHandler(this.MainMenu_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
