@@ -94,50 +94,50 @@ namespace eRent_Camera
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label2.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(22, 57);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 22);
+            this.label2.Size = new System.Drawing.Size(107, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "Id Customer";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label3.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label3.Location = new System.Drawing.Point(22, 145);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 22);
+            this.label3.Size = new System.Drawing.Size(58, 22);
             this.label3.TabIndex = 3;
             this.label3.Text = "Name";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label4.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label4.Location = new System.Drawing.Point(22, 197);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 22);
+            this.label4.Size = new System.Drawing.Size(73, 22);
             this.label4.TabIndex = 4;
             this.label4.Text = "Address";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label5.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label5.Location = new System.Drawing.Point(22, 247);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 22);
+            this.label5.Size = new System.Drawing.Size(61, 22);
             this.label5.TabIndex = 5;
             this.label5.Text = "Phone";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label6.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label6.Location = new System.Drawing.Point(390, 100);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 22);
+            this.label6.Size = new System.Drawing.Size(66, 22);
             this.label6.TabIndex = 6;
             this.label6.Text = "Id Type";
             // 
@@ -172,10 +172,10 @@ namespace eRent_Camera
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label17.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label17.Location = new System.Drawing.Point(22, 103);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(91, 22);
+            this.label17.Size = new System.Drawing.Size(95, 22);
             this.label17.TabIndex = 12;
             this.label17.Text = "Id Number";
             // 
@@ -210,7 +210,7 @@ namespace eRent_Camera
             // 
             // IdCustTb
             // 
-            this.IdCustTb.Location = new System.Drawing.Point(136, 51);
+            this.IdCustTb.Location = new System.Drawing.Point(135, 57);
             this.IdCustTb.Name = "IdCustTb";
             this.IdCustTb.Size = new System.Drawing.Size(216, 26);
             this.IdCustTb.TabIndex = 7;
@@ -274,40 +274,40 @@ namespace eRent_Camera
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label9.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label9.Location = new System.Drawing.Point(26, 81);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(60, 22);
+            this.label9.Size = new System.Drawing.Size(62, 22);
             this.label9.TabIndex = 2;
             this.label9.Text = "RegNo";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label10.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label10.Location = new System.Drawing.Point(26, 259);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(48, 22);
+            this.label10.Size = new System.Drawing.Size(49, 22);
             this.label10.TabIndex = 5;
             this.label10.Text = "Price";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label11.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label11.Location = new System.Drawing.Point(26, 142);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(48, 22);
+            this.label11.Size = new System.Drawing.Size(51, 22);
             this.label11.TabIndex = 3;
             this.label11.Text = "Merk";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label12.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label12.Location = new System.Drawing.Point(26, 203);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(57, 22);
+            this.label12.Size = new System.Drawing.Size(59, 22);
             this.label12.TabIndex = 4;
             this.label12.Text = "Model";
             // 
@@ -332,14 +332,14 @@ namespace eRent_Camera
             // 
             this.FeeTb.Location = new System.Drawing.Point(153, 253);
             this.FeeTb.Name = "FeeTb";
-            this.FeeTb.Size = new System.Drawing.Size(112, 26);
+            this.FeeTb.Size = new System.Drawing.Size(143, 26);
             this.FeeTb.TabIndex = 17;
             // 
             // DaysTb
             // 
             this.DaysTb.Location = new System.Drawing.Point(153, 197);
             this.DaysTb.Name = "DaysTb";
-            this.DaysTb.Size = new System.Drawing.Size(112, 26);
+            this.DaysTb.Size = new System.Drawing.Size(143, 26);
             this.DaysTb.TabIndex = 16;
             // 
             // ReturnDtp
@@ -348,7 +348,7 @@ namespace eRent_Camera
             this.ReturnDtp.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.ReturnDtp.Location = new System.Drawing.Point(153, 142);
             this.ReturnDtp.Name = "ReturnDtp";
-            this.ReturnDtp.Size = new System.Drawing.Size(112, 26);
+            this.ReturnDtp.Size = new System.Drawing.Size(143, 26);
             this.ReturnDtp.TabIndex = 7;
             this.ReturnDtp.ValueChanged += new System.EventHandler(this.ReturnDtp_ValueChanged);
             // 
@@ -358,7 +358,7 @@ namespace eRent_Camera
             this.RentDateDtp.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.RentDateDtp.Location = new System.Drawing.Point(153, 79);
             this.RentDateDtp.Name = "RentDateDtp";
-            this.RentDateDtp.Size = new System.Drawing.Size(112, 26);
+            this.RentDateDtp.Size = new System.Drawing.Size(143, 26);
             this.RentDateDtp.TabIndex = 6;
             this.RentDateDtp.ValueChanged += new System.EventHandler(this.RentDateDtp_ValueChanged);
             // 
@@ -376,40 +376,40 @@ namespace eRent_Camera
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label13.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label13.Location = new System.Drawing.Point(34, 81);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(85, 22);
+            this.label13.Size = new System.Drawing.Size(90, 22);
             this.label13.TabIndex = 2;
             this.label13.Text = "Rent Date";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label14.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label14.Location = new System.Drawing.Point(34, 259);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(75, 22);
+            this.label14.Size = new System.Drawing.Size(79, 22);
             this.label14.TabIndex = 5;
             this.label14.Text = "Rent Fee";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label15.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label15.Location = new System.Drawing.Point(34, 142);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(102, 22);
+            this.label15.Size = new System.Drawing.Size(108, 22);
             this.label15.TabIndex = 3;
             this.label15.Text = "Return Date";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.label16.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.label16.Location = new System.Drawing.Point(34, 197);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(47, 22);
+            this.label16.Size = new System.Drawing.Size(49, 22);
             this.label16.TabIndex = 4;
             this.label16.Text = "Days";
             // 
@@ -432,7 +432,8 @@ namespace eRent_Camera
             // AddBtn
             // 
             this.AddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.AddBtn.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.AddBtn.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
+            this.AddBtn.ForeColor = System.Drawing.Color.White;
             this.AddBtn.Location = new System.Drawing.Point(773, 686);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.Size = new System.Drawing.Size(118, 43);
@@ -444,7 +445,8 @@ namespace eRent_Camera
             // EditBtn
             // 
             this.EditBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.EditBtn.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.EditBtn.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
+            this.EditBtn.ForeColor = System.Drawing.Color.White;
             this.EditBtn.Location = new System.Drawing.Point(914, 686);
             this.EditBtn.Name = "EditBtn";
             this.EditBtn.Size = new System.Drawing.Size(118, 43);
@@ -456,7 +458,8 @@ namespace eRent_Camera
             // DeleteBtn
             // 
             this.DeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.DeleteBtn.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.DeleteBtn.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
+            this.DeleteBtn.ForeColor = System.Drawing.Color.White;
             this.DeleteBtn.Location = new System.Drawing.Point(1062, 686);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.Size = new System.Drawing.Size(118, 43);
@@ -468,7 +471,8 @@ namespace eRent_Camera
             // CloseBtn
             // 
             this.CloseBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.CloseBtn.Font = new System.Drawing.Font("Open Sans", 8F);
+            this.CloseBtn.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
+            this.CloseBtn.ForeColor = System.Drawing.Color.White;
             this.CloseBtn.Location = new System.Drawing.Point(1205, 686);
             this.CloseBtn.Name = "CloseBtn";
             this.CloseBtn.Size = new System.Drawing.Size(118, 43);

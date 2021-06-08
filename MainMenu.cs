@@ -13,7 +13,6 @@ namespace eRent_Camera
 {
     public partial class MainMenu : Form
     {
-   
         public MainMenu()
         {
             InitializeComponent();
@@ -32,7 +31,6 @@ namespace eRent_Camera
             RentalDgv.DataSource = ds.Tables[0];
             Con.Close();
         }
-
         private void AddBtn_Click(object sender, EventArgs e)
         {
             uCustomer iCustomer = new uCustomer();
@@ -68,7 +66,6 @@ namespace eRent_Camera
             }
             
         }
-
         private void EditBtn_Click(object sender, EventArgs e)
         {
             if (IdCustTb.Text == "" || IdTb.Text == "" || NameTb.Text == "" || AddTb.Text == "" || PhoneTb.Text == "" || RegNoTb.Text == "" || MerkTb.Text == "" || ModelTb.Text == "" || PriceTb.Text == "" || DaysTb.Text == "" || FeeTb.Text == "")
@@ -93,7 +90,6 @@ namespace eRent_Camera
                 }
             }
         }
-
         private void DeleteBtn_Click(object sender, EventArgs e)
         {
             if(IdCustTb.Text=="")
@@ -118,8 +114,6 @@ namespace eRent_Camera
                 }
             }
         }
-      
-    
         private void RentalDgv_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {           
             IdTb.Text = RentalDgv.CurrentRow.Cells["Id No"].Value.ToString();
@@ -155,7 +149,6 @@ namespace eRent_Camera
                 DaysTb.Text = endTime.Subtract(startTime).Days.ToString();
             }
         }
-
         private void ReturnDtp_ValueChanged(object sender, EventArgs e)
         {
             DateTime startTime = Convert.ToDateTime(RentDateDtp.Text);
@@ -165,11 +158,11 @@ namespace eRent_Camera
                 DaysTb.Text = endTime.Subtract(startTime).Days.ToString();
             }
         }
-
         private void CloseBtn_Click(object sender, EventArgs e)
         {
             this.Close();
             
         }
+
     }
 }

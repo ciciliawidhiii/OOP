@@ -12,12 +12,11 @@ namespace eRent_Camera
         public void validateLogin (string username1, string password1)
         {
             //validate login 
-            if(username1.Equals("jeremy").Equals(true) && password1.Equals("pastibisa").Equals(true))
+            if(username1.Equals("jeremy").Equals(true) && password1.Equals("abc123").Equals(true))
             {
                 MessageBox.Show("Welcome Admin, Have a Nice Day :)");
                 
             }
-
             //validate empty login 
             else if(username1.Equals(string.Empty).Equals(true))
             {
@@ -34,7 +33,6 @@ namespace eRent_Camera
                 MessageBox.Show("Invalid Username or Password,\n please try again");
                 return;
             }
-
         }
     }
 }

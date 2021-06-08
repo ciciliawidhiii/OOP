@@ -17,7 +17,6 @@ namespace eRent_Camera
         {
             InitializeComponent();
         }
-
         private void LoginBtn_Click(object sender, EventArgs e)
         {
             Login logClass = new Login();
@@ -30,17 +29,13 @@ namespace eRent_Camera
             this.Hide();
             new MainMenu().Show();
         }
-
         private void UserTb_TextChanged(object sender, EventArgs e)
         {
             LoginBtn.Enabled = true;
         }
-
         private void PassTb_TextChanged(object sender, EventArgs e)
         {
             LoginBtn.Enabled = true;
         }
-
-
     }
 }
