@@ -434,7 +434,7 @@ namespace eRent_Camera
             this.AddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.AddBtn.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.AddBtn.ForeColor = System.Drawing.Color.White;
-            this.AddBtn.Location = new System.Drawing.Point(773, 686);
+            this.AddBtn.Location = new System.Drawing.Point(729, 686);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.Size = new System.Drawing.Size(118, 43);
             this.AddBtn.TabIndex = 11;
@@ -447,7 +447,7 @@ namespace eRent_Camera
             this.EditBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.EditBtn.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.EditBtn.ForeColor = System.Drawing.Color.White;
-            this.EditBtn.Location = new System.Drawing.Point(914, 686);
+            this.EditBtn.Location = new System.Drawing.Point(884, 686);
             this.EditBtn.Name = "EditBtn";
             this.EditBtn.Size = new System.Drawing.Size(118, 43);
             this.EditBtn.TabIndex = 12;
@@ -460,7 +460,7 @@ namespace eRent_Camera
             this.DeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.DeleteBtn.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.DeleteBtn.ForeColor = System.Drawing.Color.White;
-            this.DeleteBtn.Location = new System.Drawing.Point(1062, 686);
+            this.DeleteBtn.Location = new System.Drawing.Point(1035, 686);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.Size = new System.Drawing.Size(118, 43);
             this.DeleteBtn.TabIndex = 13;
@@ -473,7 +473,7 @@ namespace eRent_Camera
             this.CloseBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.CloseBtn.Font = new System.Drawing.Font("Open Sans", 8F, System.Drawing.FontStyle.Bold);
             this.CloseBtn.ForeColor = System.Drawing.Color.White;
-            this.CloseBtn.Location = new System.Drawing.Point(1205, 686);
+            this.CloseBtn.Location = new System.Drawing.Point(1184, 686);
             this.CloseBtn.Name = "CloseBtn";
             this.CloseBtn.Size = new System.Drawing.Size(118, 43);
             this.CloseBtn.TabIndex = 14;
@@ -494,9 +494,9 @@ namespace eRent_Camera
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-36, 746);
+            this.pictureBox2.Location = new System.Drawing.Point(-36, 735);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1359, 15);
+            this.pictureBox2.Size = new System.Drawing.Size(1394, 26);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
