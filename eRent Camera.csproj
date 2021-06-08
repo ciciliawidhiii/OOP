@@ -128,12 +128,12 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="eRentDb.mdf">
+    <Content Include="DB_eRent.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="eRentDb_log.ldf">
+    <Content Include="DB_eRent_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>eRentDb.mdf</DependentUpon>
+      <DependentUpon>DB_eRent.mdf</DependentUpon>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

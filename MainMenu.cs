@@ -20,11 +20,11 @@ namespace eRent_Camera
             RentDateDtp.ValueChanged += new EventHandler(RentDateDtp_ValueChanged);
             ReturnDtp.ValueChanged += new EventHandler(ReturnDtp_ValueChanged);
         }
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\source\repos\eRent Camera\eRentDb.mdf;Integrated Security=True");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Asus\source\repos\eRent Camera\DB_eRent.mdf;Integrated Security=True");
         private void populate()
         {
             Con.Open();
-            string query = "select * from eRentTbl";
+            string query = "select * from rentalData";
             SqlDataAdapter da = new SqlDataAdapter(query, Con);
             SqlCommandBuilder builder = new SqlCommandBuilder(da);
             var ds = new DataSet();
@@ -54,7 +54,7 @@ namespace eRent_Camera
                 try
                 {
                     Con.Open();
-                    string query = "insert into eRentTbl values('" + IdCustTb.Text + "','" + IdTb.Text+"','" + IdTypeCb.SelectedItem.ToString() + "', '" + NameTb.Text + "', '" + AddTb.Text + "', '" + PhoneTb.Text + "', " + RegNoTb.Text + ", '" + MerkTb.Text + "','" + ModelTb.Text + "','" + PriceTb.Text + "', '" + RentDateDtp.Value.Date+"', '"+ ReturnDtp.Value.Date +"','" + DaysTb.Text + "', '" + FeeTb.Text + "')";
+                    string query = "insert into rentalData values('" + IdCustTb.Text + "','" + IdTb.Text+"','" + IdTypeCb.SelectedItem.ToString() + "', '" + NameTb.Text + "', '" + AddTb.Text + "', '" + PhoneTb.Text + "', " + RegNoTb.Text + ", '" + MerkTb.Text + "','" + ModelTb.Text + "','" + PriceTb.Text + "', '" + RentDateDtp.Value.Date+"', '"+ ReturnDtp.Value.Date +"','" + DaysTb.Text + "', '" + FeeTb.Text + "')";
                     SqlCommand cmd = new SqlCommand(query, Con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Information Succesfully Added");
@@ -80,7 +80,7 @@ namespace eRent_Camera
                 try
                 {
                     Con.Open();
-                    string query = "update eRentTbl set [Id No]= '" +IdTb.Text+"',[ID Type]='" + IdTypeCb.SelectedItem.ToString() + "',Name= '" + NameTb.Text + "',Address= '" + AddTb.Text + "', Phone= '" + PhoneTb.Text + "', RegNo='" +RegNoTb.Text+"',Merk= '" + MerkTb.Text + "',Model= '" + ModelTb.Text + "',Price= '" + PriceTb.Text + "', Days= '" + DaysTb.Text + "', [Rent Fee]= '" + FeeTb.Text + "' where [Id]= '" + IdCustTb.Text + "';";
+                    string query = "update rentalData set [Id No]= '" +IdTb.Text+"',[ID Type]='" + IdTypeCb.SelectedItem.ToString() + "',Name= '" + NameTb.Text + "',Address= '" + AddTb.Text + "', Phone= '" + PhoneTb.Text + "', RegNo='" +RegNoTb.Text+"',Merk= '" + MerkTb.Text + "',Model= '" + ModelTb.Text + "',Price= '" + PriceTb.Text + "', Days= '" + DaysTb.Text + "', [Rent Fee]= '" + FeeTb.Text + "' where [Id]= '" + IdCustTb.Text + "';";
                     SqlCommand cmd = new SqlCommand(query, Con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Information Succesfully Update");
@@ -105,7 +105,7 @@ namespace eRent_Camera
                 try
                 {
                     Con.Open();
-                    string query = "delete from eRentTbl where [Id]=" + IdCustTb.Text + ";";
+                    string query = "delete from rentalData where [Id]=" + IdCustTb.Text + ";";
                     SqlCommand cmd = new SqlCommand(query, Con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Information Succesfully Deleted");
