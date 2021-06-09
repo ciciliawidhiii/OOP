@@ -160,8 +160,7 @@ namespace eRent_Camera
         }
         private void CloseBtn_Click(object sender, EventArgs e)
         {
-            this.Close();
-            
+            System.Windows.Forms.Application.Exit();
         }
 
     }
