@@ -19,24 +19,24 @@ namespace eRent_Camera
         }
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-
-            Login logClass = new Login();
-
-            string username1 = UserTb.Text;
-            string password1 = PassTb.Text;
-
-            logClass.validateLogin(username1, password1);
-
-            this.Hide();
-            new MainMenu().Show();
+            string username, password;
+            username = UserTb.Text;
+            password = PassTb.Text;
+            if (username == "jeremy" && password == "abc123")
+            {
+                MessageBox.Show("Welcome Admin Have a Nice Day :)");
+                this.Hide();
+                new MainMenu().Show();
+            }
+            else if (username == "" && password == "")
+            {
+                MessageBox.Show("Please fill all field");
+            }
+            else
+            {
+                MessageBox.Show("Invalid Username or Password,\n please try again");
+            }
         }
-        private void UserTb_TextChanged(object sender, EventArgs e)
-        {
-            LoginBtn.Enabled = true;
-        }
-        private void PassTb_TextChanged(object sender, EventArgs e)
-        {
-            LoginBtn.Enabled = true;
-        }
+
     }
 }

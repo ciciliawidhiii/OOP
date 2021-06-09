@@ -63,7 +63,7 @@ namespace eRent_Camera
             this.UserTb.Name = "UserTb";
             this.UserTb.Size = new System.Drawing.Size(263, 41);
             this.UserTb.TabIndex = 1;
-            this.UserTb.TextChanged += new System.EventHandler(this.UserTb_TextChanged);
+            
             // 
             // label1
             // 
@@ -115,7 +115,7 @@ namespace eRent_Camera
             this.PassTb.Name = "PassTb";
             this.PassTb.Size = new System.Drawing.Size(263, 44);
             this.PassTb.TabIndex = 6;
-            this.PassTb.TextChanged += new System.EventHandler(this.PassTb_TextChanged);
+            
             // 
             // pictureBox1
             // 
