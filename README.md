@@ -1,7 +1,7 @@
 # Tugas Pembuatan Aplikasi PBO 
 Di bawah ini merupakan repositori yang digunakan selama proses pengerjaan tugas 
-1. UTS : https://github.com/ciciliawidhiii/Object-Oriented-Programming.git
-2. Tugas database dan final project : https://github.com/ciciliawidhiii/OOP.git
+1. UTS : https://github.com/ciciliawidhiii/Object-Oriented-Programming
+2. Tugas database dan final project : https://github.com/ciciliawidhiii/OOP
 
 # Penggunaan Aplikasi 
 1. Pada halaman login masukkan username: jeremy dan password: pastibisa 
